@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.margin{
+    width: 90%;
+    margin: auto;
+}
+.menubar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    background-color: black;
+}
+.menubar-img{
+    width: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menubar-text ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.menubar-text ul li a{
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn button{
+    padding: 2px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: turquoise;
+    border: 1px solid red;
+    color: white;
+}
+.btn button:hover{
+    background-color: tomato;
+    border: 1px solid white;
+}
+
+
+.container{
+    padding: 30px 0px;
+}
+.jumbotron{
+    text-align: center;
+}
+
+
+.card img{
+    width: 320px;
+    height: 370px;
+    margin: auto;
+}
+.card h5{
+    font-size: 25px;
+    font-weight: bold;
+}
+.card p{
+    font-size: 16px;
+}
